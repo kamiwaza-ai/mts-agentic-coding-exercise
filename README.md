@@ -84,10 +84,14 @@ Upload the following to the private Google Drive folder in your invitation:
 1. The complete recording, or clearly numbered recording segments if capture failed.
 2. A ZIP of the completed repository, including the completed [`NOTES.md`](NOTES.md).
 
-Do not include `.venv`, caches, dependency directories, credentials, API keys, personal files, or
-unrelated source code. Do not open a pull request or publish your solution. Your recording and code
-will be available only to the hiring team and will be deleted 90 days after the final decision on
-your application.
+Create the ZIP from the repository's text source, tests, documentation, and configuration files.
+Do not include `.git`, `.venv`, caches, build output, dependency directories, nested archives,
+executables or compiled files, HTML/SVG/Office/PDF files, credentials, API keys, personal files, or
+unrelated source code. We review the submitted source statically and use the recording as evidence
+of the behavior you observed, so installers and runnable binaries are neither needed nor accepted.
+
+Do not open a pull request or publish your solution. Your recording and code will be available only
+to the hiring team and will be deleted 90 days after the final decision on your application.
 
 Please complete the exercise within one week of receiving the invitation. If you have a technical
 problem or would like to speak with us before starting, reply to the invitation email.
